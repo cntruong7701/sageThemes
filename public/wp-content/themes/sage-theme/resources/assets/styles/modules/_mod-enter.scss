@@ -1,0 +1,15 @@
+
+// h3{
+//     padding: 0 32px;
+// }
+.self{
+    display: flex;
+    align-self: normal;
+}
+
+.info-col {
+    @apply xl:w-2/5 md:w-1/2 text-center flex flex-col items-center xl:mt-12 xl:mb-12 md:mx-auto;
+  }
+  .info-icon {
+    @apply mb-8;
+  }
