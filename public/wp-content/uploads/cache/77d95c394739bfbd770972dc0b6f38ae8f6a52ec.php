@@ -1,8 +1,10 @@
 <section class="w-full bg-slate-100">
     <div class="w-4/5 mx-[auto]">
-        <div class="flex">
-            <div class="w-1/2 2xl:mx-25 my-50">
-                <h2>Our Open Ecosystem of Partners Gives You the Power to Choose</h2>
+        <div class="flex xl:flex-row md:flex-col">
+            <div class="xl:w-1/2 2xl:mx-25 xl:my-50 md:w-full md:mb-25">
+                <div class="2xl:w-full 2xl:mb-0 xl:w-410 xl:mb-25">
+                    <h2>Our Open Ecosystem of Partners Gives You the Power to Choose</h2>
+                </div>
                 <p>
                     We believe in the power of transparency and connectedness. Encompass’ ecosystem of partners
                     combines
@@ -18,7 +20,7 @@
                     compromising efficiency or breaking data flow.
                 </p>
             </div>
-            <div class="carousel2 w-1/2  2xl:mx-25 my-40">
+            <div class="carousel2 xl:w-1/2 md:w-full 2xl:mx-25 2xl:my-40 xl:mt-83">
                 <div>
                     <div class="flex">
                         <div class="w-1/2 mr-13">

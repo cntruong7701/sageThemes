@@ -29,7 +29,7 @@
 .slick2-prev,
 .slick2-next {
   position: absolute;
-  top: 100%;
+  @apply text-primary bg-primary 2xl:top-full xl:top-72% md:top-94%;
   display: flex;
   justify-content: center;
   align-items: center;

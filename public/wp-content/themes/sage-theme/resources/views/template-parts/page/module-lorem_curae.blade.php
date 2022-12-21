@@ -18,7 +18,7 @@
     </div>
     <div class="relative w-4/5 ml-100">
         <span class="text-lg font-bold text-brown-400">THE LATEST</span>
-        <div class="flex">
+        <div class="flex 2xl:flex-row md:flex-col">
             <div class="shadow-2xl w-1/2 rounded-b-4xl">
                 <img src="{!! App::getBanner()['lorem'] !!}" alt="{!! App::getBanner()['alt'] !!}">
                 <div class="w-4/5 py-39 mx-[auto]">
@@ -30,7 +30,7 @@
                     </button>
                 </div>
             </div>
-            <div class="w-1/2 ml-14 ">
+            <div class="w-1/2 ml-14 2xl:flex 2xl:flex-col 2xl:justify-between">
                 <div class="w-4/5 px-28 py-15 mb-11 shadow-2xl rounded-4xl">
                     <h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</h3>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
