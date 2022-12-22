@@ -1,4 +1,4 @@
-<footer id="footer" class="module footer pt-60 bg-white">
+<footer id="footer" class="wrap module footer pt-60 bg-white">
     <div class="flex flex-col text-center w-[42%] mx-[auto]">
         <h2>Trusted By Industry Leaders Across the Supply Chain</h2>
         <p>
@@ -50,29 +50,48 @@
             <img class="w-full h-205" src="{!! App::getBanner()['bgFooter'] !!}" alt="{!! App::getLogo()['alt'] !!}">
         </div>
         <div class="absolute top-[163px] w-full">
-            <div class="flex flex-col w-4/5 justify-between mx-auto items-baseline">
-                <div>
+            <div class="flex flex-col xl:w-4/5 md:w-full justify-between mx-auto xl:items-start md:items-center">
+                <div class="2xl:relative xl:absolute md:relative 2xl:mb-22">
                     <img src="{!! App::getLogo()['logoFooter'] !!}" alt="{!! App::getLogo()['alt'] !!}">
                 </div>
-                <div class="flex w-full justify-between mx-auto items-baseline">
-                    <div>
-                        <span class="icomoon icon-youtube text-brown-400 text-2xl"></span>
-                        <span class="icomoon icon-instagram text-brown-400 text-2xl"></span>
-                        <span class="icomoon icon-twitter text-brown-400 text-2xl"></span>
-                        <span class="icomoon icon-facebook text-brown-400 text-2xl"></span>
-                        <span class="icomoon icon-linkedin2 text-brown-400 text-2xl"></span>
+                <div class="flex w-full 2xl:items-start xl:items-end md:items-center xl:flex-row md:flex-col">
+                    <div class="flex xl:mr-25 justify-between xl:items-end xl:w-1/4 md:w-2/5 2xl:p-0 xl:py-9">
+                        <div>
+                            <span
+                                class="icomoon icon-youtube text-brown-400 2xl:text-2xl xl:text-base md:text-2xl 2xl:pr-10 xl:pr-5"></span>
+                        </div>
+                        <div>
+                            <span
+                                class="icomoon icon-instagram text-brown-400 2xl:text-2xl xl:text-base md:text-2xl 2xl:pr-10 xl:pr-5"></span>
+                        </div>
+                        <div>
+                            <span
+                                class="icomoon icon-twitter text-brown-400 2xl:text-2xl xl:text-base md:text-2xl 2xl:pr-10 xl:pr-5"></span>
+                        </div>
+                        <div>
+                            <span
+                                class="icomoon icon-facebook text-brown-400 2xl:text-2xl xl:text-base md:text-2xl 2xl:pr-10 xl:pr-5"></span>
+                        </div>
+                        <div>
+                            <span
+                                class="icomoon icon-linkedin2 text-brown-400 2xl:text-2xl xl:text-base md:text-2xl 2xl:pr-10 xl:pr-5"></span>
+                        </div>
                     </div>
-                    <div class="px-25 py-5 ">
-                        <p>ORCHESTRA SITE</p>
-                    </div>
-                    <div class="px-25 py-5 ">
-                        <p>ENCOMPASS WEBSITE</p>
-                    </div>
-                    <div class="px-25 py-5 ">
-                        <p>HANDOFF WEBSITE</p>
-                    </div>
-                    <div class="px-25 py-5 border-2 rounded-4xl">
-                        <a href="">CONTACT</a>
+                    <div class="flex xl:w-[70%] md:w-full justify-between 2xl:items-start xl:items-end md:items-center 2xl:flex-row md:flex-col">
+                        <div class="flex w-full xl:justify-between md:justify-around 2xl:mr-25 order">
+                            <div class="py-5 xl:px-0 md:px-6">
+                                <p>ORCHESTRA SITE</p>
+                            </div>
+                            <div class="py-5 xl:px-0 md:px-6">
+                                <p>ENCOMPASS WEBSITE</p>
+                            </div>
+                            <div class="py-5 xl:px-0 md:px-6">
+                                <p>HANDOFF WEBSITE</p>
+                            </div>
+                        </div>
+                        <div class="px-10 py-5 border-2 rounded-4xl xl:mb-16">
+                            <a href="" class="text-white font-bold">CONTACT</a>
+                        </div>
                     </div>
                 </div>
                 <p>© Encompass Technologies 2021</p>

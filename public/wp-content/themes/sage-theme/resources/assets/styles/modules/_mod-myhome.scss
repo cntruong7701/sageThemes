@@ -15,4 +15,10 @@ body{
     height: 2px;
 }
 
+.order{
+    @apply 2xl:order-none xl:order-last;
+}
+
+
+
 /* screen 768*/

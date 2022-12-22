@@ -15,7 +15,7 @@
             unlock business growth opportunities by enabling each tier of the supply chain to drive operational
             efficiencies, improve how people work, and meet fast-changing, unpredictable consumer demand.
         </p>
-        <button class="w-102 h-27 rounded-13 btn-brown text-base font-bold">LEARN MORE</button>
+        <button class="w-102 h-27 rounded-13 btn-brown text-base font-bold mt-16">LEARN MORE</button>
     </div>
     </div>
 </section>
