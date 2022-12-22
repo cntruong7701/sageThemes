@@ -1,16 +1,16 @@
 <section class="cus-container wrap">
-    <div class="w-4/5 mx-[auto] flex xl:flex-row md:flex-col justify-between mb-50">
-        <div class="flex flex-col w-1/3 3xl:px-40 2xl:px-20 2xl:m-0 xl:mr-12">
+    <div class="w-4/5 mx-[auto] center mb-50">
+        <div class="flex flex-col width 3xl:px-40 2xl:px-20 margin-col-top">
             <span class="icomoon icon-streamlined text-9xl"></span>
             <span class="text-5xl font-bold text-black-200 leading-normal">Streamlined</span>
             <span class="text-4xl 3xl:w-11/12 leading-tight">to Provide a Single Source of Truth</span>
         </div>
-        <div class="flex flex-col w-1/3 3xl:px-40 2xl:px-20 xl:px-12 border--2 border-blue-300">
+        <div class="flex flex-col width padding-col border--2 border-blue-300">
             <span class="icomoon icon-icon6 text-9xl"></span>
             <span class="text-5xl font-bold text-black-200 leading-normal">Scalable,</span>
             <span class="text-4xl leading-tight">Flexible Solutions</span>
         </div>
-        <div class="flex flex-col w-1/3 3xl:px-40 2xl:px-20 2xl:m-0 xl:ml-12">
+        <div class="flex flex-col width 3xl:px-40 2xl:px-20 margin-col-bottom">
             <span class="icomoon icon-icon7 text-9xl"></span>
             <span class="text-5xl font-bold text-black-200 leading-normal">Backed by</span>
             <span class="text-4xl 3xl:w-3/4 2xl:w-11/12 leading-tight">Superior Service & Support</span>

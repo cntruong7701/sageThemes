@@ -29,7 +29,7 @@
 .slick2-prev,
 .slick2-next {
   position: absolute;
-  @apply text-primary bg-primary 2xl:top-full xl:top-72% md:top-94%;
+  @apply text-primary bg-primary 2xl:top-full xl:top-9% md:top-94%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,6 +46,28 @@
   font-size: 48px;
  
 }
+
+.slick-prev2,
+.slick-next2 {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 68px;
+  height: 78px;
+  transform: translate(0, -50%);
+  z-index: 11;
+  color: orangered;
+  font-size: 48px;
+ 
+}
+
 
 .slick-prev {
 }

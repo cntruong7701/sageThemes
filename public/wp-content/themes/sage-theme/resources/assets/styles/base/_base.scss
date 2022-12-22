@@ -78,7 +78,8 @@
     @apply list-disc;
   }
   p {
-    @apply mb-15;
+    margin: 0 !important;
+    @apply m-0;
   }
 }
 

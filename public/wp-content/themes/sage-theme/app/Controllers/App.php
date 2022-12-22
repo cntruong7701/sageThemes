@@ -40,6 +40,7 @@ class App extends Controller
     {
         $logo = get_field('ns_header_logo', ACF_OPTION);
         $url = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/logo-sagetheme.svg';
+        $logoFooter = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/footerLogo.svg';
         $aperity = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/aperity-logo.png';
         $cba = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/cba-logo.png';
         $provi = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/provi-logo.png';
@@ -54,7 +55,7 @@ class App extends Controller
         $whistle = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/logofooter/WhistlePig_Logo_Primary.png';
         $alt = ($logo && $logo['alt']) ? $logo['alt'] : 'logo';
         $href = home_url();
-        return compact('url', 'aperity', 'cba', 'provi', 'salsify', 'script', 'untappd', 'advance', 'barringer', 'eagle', 'firestone', 'towns', 'whistle','alt', 'href');
+        return compact('url', 'logoFooter', 'aperity', 'cba', 'provi', 'salsify', 'script', 'untappd', 'advance', 'barringer', 'eagle', 'firestone', 'towns', 'whistle','alt', 'href');
     }
 
     public static function getBanner()
@@ -64,7 +65,7 @@ class App extends Controller
         $Business = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/BusinessImg.png';
         $Hide = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/bgHide.png';
         $lorem = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/lorem.jpg';
-        $bgFooter = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/bgFooter.png';
+        $bgFooter = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/footer1.png';
         $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
         $alt1 = ($banner && $banner['alt']) ? $banner['alt'] : 'business';
         $href = home_url();

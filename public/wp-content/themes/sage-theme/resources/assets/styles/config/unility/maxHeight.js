@@ -5,6 +5,7 @@ const maxHeight = {
   screen: '100vh',
   initial: 'initial',
   'none': 'none',
+  '205': '410px',
   '231': '462px',
   '2k': '2000px'
 }
