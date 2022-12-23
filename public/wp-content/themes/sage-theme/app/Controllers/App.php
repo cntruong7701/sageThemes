@@ -14,7 +14,7 @@ class App extends Controller
 
     public static function title()
     {
-        $title = "The Encompass Platform Seamlessly Connects the Supply Chain, Allowing You to:";
+        $title = "";
         if (is_home()) {
             if ($home = get_option('page_for_posts', true)) {
                 return get_the_title($home);
