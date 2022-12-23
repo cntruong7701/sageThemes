@@ -1,6 +1,6 @@
 <section class="w-full wrap mt-50">
     <div class="xl:w-11/12 xl:flex md:w-full">
-    <div class="xl:w-1/2 md:w-full relative bg-slate-100 2xl:h-[781px]">
+    <div class="xl:w-1/2 md:w-full relative bg-slate-100 2xl:h-392">
         <img src="<?php echo App::getBanner()['Business']; ?>" alt="<?php echo App::getBanner()['alt1']; ?>" class="3xl:w-11/12 2xl:w-full h-[1000px] xl:absolute top-[-10%] xl:ml-75 shadow-blue-200 mx-auto ">
     </div>
     <div class="xl:w-1/2 md:w-3/5 3xl:p-74 2xl:pl-103 2xl:pt-86 xl:pl-90 xl:mt-0 md:mt-70 md:mx-auto">

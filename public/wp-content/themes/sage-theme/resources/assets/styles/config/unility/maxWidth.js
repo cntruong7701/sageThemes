@@ -13,6 +13,7 @@ const maxWidth = {
   '6xl': '74rem',
   '7xl': '80rem',
   full: '100%',
+  '85%': '85%',
   min: 'min-content',
   max: 'max-content',
   prose: '65ch',
@@ -36,14 +37,15 @@ const maxWidth = {
   '460': '460px',
   '478': '478px',
   '480': '480px',
-  '500': '500px',
+  '250': '500px',
   '520': '520px',
   '540': '540px',
   '560': '560px',
   '580': '580px',
   '600': '600px',
   '660': '660px',
-  '1000': '1000px'
+  '1000': '1000px',
+  '552': '1104px'
 }
 module.exports = {
   maxWidth

@@ -1,17 +1,12 @@
 $('.carousel').slick({
-    prevArrow: '<span class="slick-prev icomoon icon-chevron-left 2xl:left-[89%] xl:left-[90%] lg:left-[87%] md:left-0"></span>',
-    nextArrow: '<span class="slick-next icomoon icon-chevron-right 2xl:right-[-25px] xl:right-[-32px] lg:right-[-25px] md:right-0"></span>',
+    prevArrow: '<span class="slick-prev icomoon icon-chevron-left 2xl:left-89% xl:left-90% lg:left-87% md:left-0"></span>',
+    nextArrow: '<span class="slick-next icomoon icon-chevron-right 2xl:right-t13 xl:right-t16 lg:right-t13 md:right-0"></span>',
 });
 
 $('.carousel2').slick({
-    prevArrow: '<span class="slick2-prev icomoon icon-chevron-left 2xl:left-[60%] xl:left-[70%] md:left-[38%]"></span>',
-    nextArrow: '<span class="slick2-next icomoon icon-chevron-right 2xl:right-[10%] xl:right-[-32px] md:right-[38%]"></span>',
+    prevArrow: '<span class="slick2-prev icomoon icon-chevron-left 2xl:left-60% xl:left-70% md:left-38%"></span>',
+    nextArrow: '<span class="slick2-next icomoon icon-chevron-right 2xl:right-10% xl:right-t16 md:right-38%"></span>',
 });
-
-// $('.carousel3').slick({
-//     prevArrow: '<span class="slick2-prev icomoon icon-chevron-left 2xl:left-[60%] xl:left-[70%] md:left-[38%]"></span>',
-//     nextArrow: '<span class="slick2-next icomoon icon-chevron-right 2xl:right-[10%] xl:right-[-32px] md:right-[38%]"></span>',
-// });
 
 $('.carousel3').slick({
     slidesToShow: 6,

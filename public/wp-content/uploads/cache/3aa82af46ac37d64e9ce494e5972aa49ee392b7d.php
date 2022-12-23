@@ -1,6 +1,6 @@
 <section class="wrap mod-threecol">
-    <div class="cus-container flex flex-col items-center justify-center mx-auto max-w-[1104px]">
-        <div class="flex flex-col items-center text-center max-w-[85%] mt-16 mb-16">
+    <div class="cus-container flex flex-col items-center justify-center mx-auto max-w-552">
+        <div class="flex flex-col items-center text-center max-w-85% mt-16 mb-16">
             <div class="xl:w-1/2 md:w-4/5">
                 <h2>Enterprise ERP Solutions for Beverage & Food Industry</h2>
             </div>
@@ -13,7 +13,7 @@
                 unpredictable market.
             </p>
         </div>
-        <div class="xl:flex items-start min-h-[479px]">
+        <div class="xl:flex items-start min-h-240">
             <div class="info-col self">
                 <div>
                     <img class="info-icon w-40 h-40" src="<?php echo App::getIcon()['icon1']; ?>"

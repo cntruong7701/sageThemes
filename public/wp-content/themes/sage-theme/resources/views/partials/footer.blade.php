@@ -1,5 +1,5 @@
 <footer id="footer" class="wrap module footer pt-60 bg-white">
-    <div class="flex flex-col text-center w-[42%] mx-[auto]">
+    <div class="flex flex-col text-center w-2/5 mx-auto">
         <h2>Trusted By Industry Leaders Across the Supply Chain</h2>
         <p>
             We are trusted by the world’s leading manufacturers, distributors, and retailers to provide the best
@@ -49,7 +49,7 @@
         <div class="absolute right-0 left-0">
             <img class="w-full h-205" src="{!! App::getBanner()['bgFooter'] !!}" alt="{!! App::getLogo()['alt'] !!}">
         </div>
-        <div class="absolute top-[163px] w-full">
+        <div class="absolute top-82 w-full">
             <div class="flex flex-col xl:w-4/5 md:w-full justify-between mx-auto xl:items-start md:items-center">
                 <div class="2xl:relative xl:absolute md:relative 2xl:mb-22">
                     <img src="{!! App::getLogo()['logoFooter'] !!}" alt="{!! App::getLogo()['alt'] !!}">

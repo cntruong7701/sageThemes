@@ -23,8 +23,8 @@
             </div>
         </div>
         <ul id="main-menu" data-module="menu"
-            class="list-none py-32 px-40 xl:flex xl:items-center m-0 z-[-1] xl:z-auto xl:static absolute bg-sky-800 w-full left-0 xl:w-[auto]
-        xl:py-0 xl:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
+            class="list-none py-32 px-40 xl:flex xl:items-center m-0 z-a-1 xl:z-auto xl:static absolute bg-sky-800 w-full left-0 xl:w-auto
+        xl:py-0 xl:opacity-100 opacity-0 top-t200 transition-all ease-in duration-500"
             id="collapse">
             <li class="menu-item px-9 my-9 uppercase text-white">
                 <a class="py-9 no-underline hover:text-blue-100" href="#">ABOUT US</a>

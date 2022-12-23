@@ -1,5 +1,5 @@
 <section class="cus-container wrap">
-    <div class="w-4/5 mx-[auto] center mb-50">
+    <div class="w-4/5 mx-auto center mb-50">
         <div class="flex flex-col width 3xl:px-40 2xl:px-20 margin-col-top">
             <span class="icomoon icon-streamlined text-9xl"></span>
             <span class="text-5xl font-bold text-black-200 leading-normal">Streamlined</span>
@@ -21,7 +21,7 @@
         <div class="flex 2xl:flex-row justify-between md:flex-col 2xl:p-0 xl:px-56 lg:px-33">
             <div class="shadow-2xl 2xl:w-1/2 2xl:m-0 xl:mb-16 lg:mb-17 xl:w-full rounded-b-4xl">
                 <img class="w-full" src="{!! App::getBanner()['lorem'] !!}" alt="{!! App::getBanner()['alt'] !!}">
-                <div class="w-4/5 py-39 mx-[auto]">
+                <div class="w-4/5 py-39 mx-auto">
                     <h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</h3>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
                     <button class="text-lg font-bold text-brown-400">
