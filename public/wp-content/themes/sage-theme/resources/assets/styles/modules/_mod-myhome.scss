@@ -1,3 +1,5 @@
+
+
 body{
     letter-spacing: -0.14px;
     line-height: 1rem;
@@ -19,6 +21,43 @@ body{
     @apply 2xl:order-none xl:order-last;
 }
 
+.inset{
+    @apply absolute xl:top-80 xl:right-0 3xl:left-126 2xl:left-62 xl:left-37 md:top-54;
+}
+
 
 
 /* screen 768*/
+$mobile-width: 480px; 
+$tablet-width: 768px; 
+$desktop-width: 1024px;  
+
+@mixin mobile { @media (max-width: #{$mobile-width - 1px}) {     
+  @content;   
+ } 
+}  
+
+@mixin tablet { @media (max-width: #{$desktop-width}) {       
+   @content;   
+ } 
+}  
+
+@mixin desktop {   @media (min-width: #{$desktop-width}) {     
+  @content;  
+ } 
+}
+
+.rotate{
+    @include tablet(){
+        transform: rotate(90deg);
+    }
+
+    @include desktop{
+        transform: rotate(0deg);
+    }
+}
+
+/*Module Connecting*/
+.mod_padding{
+    @apply 3xl:p-74 2xl:pl-103 2xl:pt-86 xl:pl-90;
+}

@@ -1,5 +1,4 @@
 <?php $__env->startSection('content'); ?>
-    <div class=""></div>
     <?php while(have_posts()): ?> <?php the_post() ?>
         <?php if(have_rows('c8_templates')): ?>
             <?php
@@ -18,7 +17,6 @@
                 <?php
                     $i++;
                 ?>
-                <div class=""></div>
             <?php endwhile; ?>
         <?php endif; ?>
     <?php endwhile; ?>

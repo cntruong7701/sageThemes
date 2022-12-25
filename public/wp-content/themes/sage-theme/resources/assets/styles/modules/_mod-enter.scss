@@ -11,6 +11,10 @@
     @apply mb-8;
 }
 
-.rotate{
-  @apply xl:rotate-0 md:rotate-90;
+.rotate0{
+  transform: rotate(0);
 }
+
+.rotate90{
+    transform: rotate(90deg);
+  }

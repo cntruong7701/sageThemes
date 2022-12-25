@@ -1,5 +1,5 @@
-<footer id="footer" class="wrap h-370 module footer mt-60 bg-white">
-    <div class="flex flex-col text-center w-2/5 mx-auto">
+<footer id="footer" class="wrap xl:h-370 lg:h-356 md:h-450 module footer mt-60 bg-white">
+    <div class="flex flex-col text-center lg:w-3/4 md:w-full mx-auto">
         <h2>Trusted By Industry Leaders Across the Supply Chain</h2>
         <p>
             We are trusted by the world’s leading manufacturers, distributors, and retailers to provide the best

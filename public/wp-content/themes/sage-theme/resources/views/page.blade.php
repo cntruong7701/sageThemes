@@ -1,6 +1,5 @@
 @extends('layouts.app')
 @section('content')
-    <div class=""></div>
     @while (have_posts()) @php the_post() @endphp
         @if (have_rows('c8_templates'))
             @php
@@ -19,7 +18,6 @@
                 @php
                     $i++;
                 @endphp
-                <div class=""></div>
             @endwhile
         @endif
     @endwhile
