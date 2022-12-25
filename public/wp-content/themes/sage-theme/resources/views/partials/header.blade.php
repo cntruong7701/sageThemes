@@ -1,4 +1,4 @@
-<header id="header" class="module header w-full h-25 top-0 left-0 fixed z-200 border-b-1 bg-sky-800"
+<header id="header" class="module header w-full top-0 left-0 relative z-200 border-b-1 bg-sky-800"
     data-module="header">
     <nav class="p-5 bg-sky-800 shadow xl:flex xl:items-center xl:justify-around">
         <div class="flex justify-around items-center xl:w-auto md:w-4/5 xl:mx-0 md:mx-auto">

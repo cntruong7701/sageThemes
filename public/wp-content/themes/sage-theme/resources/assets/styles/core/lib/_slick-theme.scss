@@ -70,20 +70,29 @@
 
 
 .slick-prev {
+  @apply 2xl:left-89% xl:left-90% lg:left-87% md:left-0;
 }
-
-// [dir="rtl"] .slick-prev {
-//   right: -25px;
-//   left: auto;
-// }
 
 .slick-next {
+  @apply 2xl:right-t13 xl:right-t16 lg:right-t13 md:right-0;
 }
 
-// [dir="rtl"] .slick-next {
-//   right: auto;
-//   left: -25px;
-// }
+.slick2-prev {
+  @apply 2xl:left-60% xl:left-70% md:left-38%;
+}
+
+.slick2-next {
+  @apply 2xl:right-10% xl:right-t16 md:right-38%;
+}
+
+.slick-prev2 {
+  @apply xl:left-t45 md:left-0;
+}
+
+.slick-next2 {
+  @apply xl:right-t45 md:right-0;
+}
+
 
 /* Dots */
 

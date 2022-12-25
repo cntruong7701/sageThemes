@@ -16,8 +16,7 @@
         <div class="xl:flex items-start min-h-240">
             <div class="info-col self">
                 <div>
-                    <img class="info-icon w-40 h-40" src="{!! App::getIcon()['icon1'] !!}"
-                        alt="{!! App::getIcon()['alt'] !!}">
+                    <img class="info-icon w-40 h-40" src="{!! App::getIcon()['icon1'] !!}" alt="{!! App::getIcon()['alt'] !!}">
                 </div>
                 <h3>Solutions for Manufacturers</h3>
                 <p>Integrate all aspects of your operations with a single source of truth for planning, purchasing,
@@ -30,13 +29,12 @@
                 </div>
             </div>
             <div>
-                <img class="dot-arrow xl:rotate-0 md:rotate-90 xl:my-25 md:my-83 md:mx-auto" src="{!! App::getIcon()['icon2'] !!}"
+                <img class="rotate xl:my-25 md:my-83 md:mx-auto" src="{!! App::getIcon()['icon2'] !!}"
                     alt="{!! App::getIcon()['alt'] !!}">
             </div>
             <div class="info-col self">
                 <div>
-                    <img class="info-icon w-40 h-40" src="{!! App::getIcon()['icon3'] !!}"
-                        alt="{!! App::getIcon()['alt'] !!}">
+                    <img class="info-icon w-40 h-40" src="{!! App::getIcon()['icon3'] !!}" alt="{!! App::getIcon()['alt'] !!}">
                 </div>
                 <h3>Solutions for Distributors</h3>
                 <p>Increase operational efficiency and manage growth effectively with products like warehouse
@@ -50,13 +48,12 @@
                 </div>
             </div>
             <div>
-                <img class="dot-arrow xl:rotate-0 md:rotate-90 xl:my-25 md:my-83 md:mx-auto" src="{!! App::getIcon()['icon2'] !!}"
-                    alt="{!! App::getIcon()['alt'] !!}">
+                <img class="dot-arrow xl:rotate-0 md:rotate-90 xl:my-25 md:my-83 md:mx-auto"
+                    src="{!! App::getIcon()['icon2'] !!}" alt="{!! App::getIcon()['alt'] !!}">
             </div>
             <div class="info-col self">
                 <div>
-                    <img class="info-icon w-40 h-40" src="{!! App::getIcon()['icon4'] !!}"
-                        alt="{!! App::getIcon()['alt'] !!}">
+                    <img class="info-icon w-40 h-40" src="{!! App::getIcon()['icon4'] !!}" alt="{!! App::getIcon()['alt'] !!}">
                 </div>
                 <h3>Solutions for Retailers</h3>
                 <p>Run a more efficient business by optimizing interactions with your distributors and customers with

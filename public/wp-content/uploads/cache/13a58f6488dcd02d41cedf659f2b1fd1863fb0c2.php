@@ -1,4 +1,4 @@
-<footer id="footer" class="wrap module footer pt-60 bg-white">
+<footer id="footer" class="wrap h-370 module footer mt-60 bg-white">
     <div class="flex flex-col text-center w-2/5 mx-auto">
         <h2>Trusted By Industry Leaders Across the Supply Chain</h2>
         <p>
@@ -77,7 +77,7 @@
                                 class="icomoon icon-linkedin2 text-brown-400 2xl:text-2xl xl:text-base md:text-2xl 2xl:pr-10 xl:pr-5"></span>
                         </div>
                     </div>
-                    <div class="flex xl:w-[70%] md:w-full justify-between 2xl:items-start xl:items-end md:items-center 2xl:flex-row md:flex-col">
+                    <div class="flex xl:w-70% md:w-full justify-between 2xl:items-start xl:items-end md:items-center 2xl:flex-row md:flex-col">
                         <div class="flex w-full xl:justify-between md:justify-around 2xl:mr-25 order">
                             <div class="py-5 xl:px-0 md:px-6">
                                 <p>ORCHESTRA SITE</p>

@@ -14,7 +14,7 @@
                         {!! $data->module['content2'] !!}
                     </div>
                 </div>
-                <div class="column2 xl:w-1/2 md:w-3/4 md:mx-[auto]">
+                <div class="column2 xl:w-1/2 md:w-3/4 md:mx-auto">
                     <div class="xl:w-4/5">
                         {!! $data->module['content3'] !!}
                     </div>

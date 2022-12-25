@@ -1,8 +1,8 @@
-<section class="mod-banner cus-container relative items-center mt-t25 min-h-429">
+<section class="mod-banner cus-container relative items-center min-h-429">
     <div class="bg-img w-full  ">
         <img class="w-full md:h-385" src="<?php echo e($data->module['image1']->url); ?>" alt="<?php echo e($data->module['image1']->alt); ?>">
     </div>
-    <div class="flex absolute xl:top-80 xl:right-0 3xl:left-13% 2xl:left-10% xl:left-37 xl:flex-row xl:text-left md:flex-col md:text-center md:top-54">
+    <div class="flex absolute xl:top-80 xl:right-0 3xl:left-126 2xl:left-62 xl:left-37 xl:flex-row xl:text-left md:flex-col md:text-center md:top-54">
         <div class=" flex flex-col text-white max-w-250 xl:mx-0 xl:items-start md:mx-auto md:items-center">
             <?php echo $data->module['content']; ?>
 
