@@ -22,7 +22,7 @@
                 <p>Integrate all aspects of your operations with a single source of truth for planning, purchasing,
                     production, QC, inventory, sales, accounting, finance, and business intelligence.</p>
                 <div class="mt-auto">
-                    <a href="">
+                    <a href="" class="hover:text-brown-400">
                         <span class="text-base font-bold">EXPLORE ORCHESTRA</span>
                         <span class="icomoon icon-chevron-right w-3"></span>
                     </a>
@@ -41,7 +41,7 @@
                     management, sales execution, logistics, warehouse automation, retailer ordering, business
                     intelligence, and more.</p>
                 <div class="mt-auto">
-                    <a href="">
+                    <a href="" class="hover:text-brown-400">
                         <span class="text-base font-bold">EXPLORE ENCOMPASS CLOUD</span>
                         <span class="icomoon icon-chevron-right w-3"></span>
                     </a>
@@ -59,7 +59,7 @@
                 <p>Run a more efficient business by optimizing interactions with your distributors and customers with
                     solutions like online ordering, retail eCommerce websites, delivery applications, and more.</p>
                 <div class="mt-auto">
-                    <a href="">
+                    <a href="" class="hover:text-brown-400">
                         <span class="text-base font-bold">EXPLORE RETAIL SOLUTIONS</span>
                         <span class="icomoon icon-chevron-right w-3"></span>
                     </a>

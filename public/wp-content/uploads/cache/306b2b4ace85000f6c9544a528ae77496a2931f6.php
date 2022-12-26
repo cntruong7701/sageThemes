@@ -1,70 +1,35 @@
 <section class="wrap mod-threecol">
     <div class="cus-container flex flex-col items-center justify-center mx-auto max-w-552">
-        <div class="flex flex-col items-center text-center max-w-85% mb-16">
-            <div class="xl:w-1/2 md:w-4/5">
-                <h2>Enterprise ERP Solutions for Beverage & Food Industry</h2>
-            </div>
-            <p>
-                At Encompass, we’re revolutionizing the beverage and food supply chain like no other ERP solution
-                has
-                before. By digitally connecting manufacturers, distributors, and retailers, our ERP SaaS solutions
-                streamline operations, simplify decision making, and equip businesses for success in a fast-changing
-                and
-                unpredictable market.
-            </p>
+        <div class="flex flex-col items-center text-center w-full mb-16">
+            <?php echo $data->module['content']; ?>
+
         </div>
         <div class="xl:flex items-start min-h-240">
-            <div class="info-col self">
-                <div>
-                    <img class="info-icon w-40 h-40" src="<?php echo App::getIcon()['icon1']; ?>" alt="<?php echo App::getIcon()['alt']; ?>">
+            <?php $__currentLoopData = $data->module['column']; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                <div class="info-col self">
+                    <div>
+                        <img class="info-icon w-40 h-40" src="<?php echo e($item->icon->url); ?>" alt="<?php echo e($item->icon->alt); ?>">
+                    </div>
+                    <?php echo $item->content; ?>
+
+                    <div class="mt-auto">
+                        <a href="<?php echo e($item->link->url); ?>" class="hover:text-brown-400">
+                            <span class="text-base font-bold"><?php echo e($item->link->title); ?></span>
+                            <span class="icomoon icon-chevron-right w-3"></span>
+                        </a>
+                    </div>
                 </div>
-                <h3>Solutions for Manufacturers</h3>
-                <p>Integrate all aspects of your operations with a single source of truth for planning, purchasing,
-                    production, QC, inventory, sales, accounting, finance, and business intelligence.</p>
-                <div class="mt-auto">
-                    <a href="">
-                        <span class="text-base font-bold">EXPLORE ORCHESTRA</span>
-                        <span class="icomoon icon-chevron-right w-3"></span>
-                    </a>
-                </div>
-            </div>
-            <div class="rotate">
-                <img class="xl:my-25 md:my-83 md:mx-auto" src="<?php echo App::getIcon()['icon2']; ?>"
-                    alt="<?php echo App::getIcon()['alt']; ?>">
-            </div>
-            <div class="info-col self">
-                <div>
-                    <img class="info-icon w-40 h-40" src="<?php echo App::getIcon()['icon3']; ?>" alt="<?php echo App::getIcon()['alt']; ?>">
-                </div>
-                <h3>Solutions for Distributors</h3>
-                <p>Increase operational efficiency and manage growth effectively with products like warehouse
-                    management, sales execution, logistics, warehouse automation, retailer ordering, business
-                    intelligence, and more.</p>
-                <div class="mt-auto">
-                    <a href="">
-                        <span class="text-base font-bold">EXPLORE ENCOMPASS CLOUD</span>
-                        <span class="icomoon icon-chevron-right w-3"></span>
-                    </a>
-                </div>
-            </div>
-            <div class="rotate">
-                <img class="dot-arrow xl:my-25 md:my-83 md:mx-auto"
-                    src="<?php echo App::getIcon()['icon2']; ?>" alt="<?php echo App::getIcon()['alt']; ?>">
-            </div>
-            <div class="info-col self">
-                <div>
-                    <img class="info-icon w-40 h-40" src="<?php echo App::getIcon()['icon4']; ?>" alt="<?php echo App::getIcon()['alt']; ?>">
-                </div>
-                <h3>Solutions for Retailers</h3>
-                <p>Run a more efficient business by optimizing interactions with your distributors and customers with
-                    solutions like online ordering, retail eCommerce websites, delivery applications, and more.</p>
-                <div class="mt-auto">
-                    <a href="">
-                        <span class="text-base font-bold">EXPLORE RETAIL SOLUTIONS</span>
-                        <span class="icomoon icon-chevron-right w-3"></span>
-                    </a>
-                </div>
-            </div>
+                <?php if($item->midicon): ?>
+                    <div class="rotate">
+                        <img class="xl:my-25 md:my-83 md:mx-auto" src="<?php echo e($item->midicon->url); ?>"
+                            alt="<?php echo e($item->midicon->alt); ?>">
+
+                    </div>
+                <?php endif; ?>
+            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
         </div>
     </div>
 </section>
+<?php
+// var_dump($data->module['column']);
+?>

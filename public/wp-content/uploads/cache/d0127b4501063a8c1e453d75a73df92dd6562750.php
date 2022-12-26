@@ -19,38 +19,20 @@
     <div class="relative 2xl:w-4/5 xl:w-full 2xl:ml-100">
         <span class="text-lg font-bold text-brown-400 2xl:p-0 xl:p-56 lg:p-33">THE LATEST</span>
         <div class="flex 2xl:flex-row justify-between md:flex-col 2xl:p-0 xl:px-56 lg:px-33">
-            <div class="shadow-2xl 2xl:w-1/2 2xl:m-0 xl:mb-16 lg:mb-17 xl:w-full rounded-b-4xl">
-                <img class="w-full" src="<?php echo App::getBanner()['lorem']; ?>" alt="<?php echo App::getBanner()['alt']; ?>">
-                <div class="w-4/5 py-39 mx-auto">
-                    <h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</h3>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
-                    <button class="text-lg font-bold text-brown-400">
-                        <span>READ MORE</span>
-                        <span class="icomoon icon-chevron-right"></span>
-                    </button>
-                </div>
-            </div>
-            <div class="2xl:w-1/2 md:w-full 2xl:ml-14 2xl:flex 2xl:flex-col 2xl:justify-between">
-                <div class="2xl:w-4/5 xl:w-full px-28 py-15 2xl:mb-11 md:mb-16 shadow-2xl rounded-4xl">
-                    <h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</h3>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
-                    <button class="text-lg font-bold text-brown-400">
-                        <span>READ MORE</span>
-                        <span class="icomoon icon-chevron-right"></span>
-                    </button>
-                </div>
-                <div class="2xl:w-4/5 xl:w-full px-28 py-15 shadow-2xl rounded-4xl">
-                    <h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</h3>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
-                    <button class="text-lg font-bold text-brown-400">
-                        <span>READ MORE</span>
-                        <span class="icomoon icon-chevron-right"></span>
-                    </button>
-                </div>
-            </div>
+
+            <?php $__currentLoopData = $data->module['content']; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                <?php
+                $name = get_field('post_title', $item->post_title);
+                echo esc_html($name);
+                ?>
+            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+            
         </div>
         <div class="absolute top-0 right-0">
             <img src="<?php echo App::getBanner()['Hide']; ?>" alt="<?php echo App::getBanner()['alt']; ?>" class="h-[400px]">
         </div>
     </div>
 </section>
+
+<?php 
+// var_dump($data->module['content']->post_title);

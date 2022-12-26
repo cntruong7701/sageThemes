@@ -1,4 +1,4 @@
-<section class="w-full wrap mt-50">
+<section class="w-full wrap mt-50 mb-80">
     <div class="xl:w-5/6 xl:flex md:w-full">
         <div class="xl:w-1/2 md:w-full relative bg-slate-100 2xl:h-392">
             <img src="{!! App::getBanner()['Business'] !!}" alt="{!! App::getBanner()['alt'] !!}"

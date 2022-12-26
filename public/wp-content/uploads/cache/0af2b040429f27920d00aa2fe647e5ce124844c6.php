@@ -1,4 +1,4 @@
-<section class="w-full wrap mt-50">
+<section class="w-full wrap mt-50 mb-80">
     <div class="xl:w-5/6 xl:flex md:w-full">
     <div class="xl:w-1/2 md:w-full relative bg-slate-100 2xl:h-392">
         <img src="<?php echo e($data->module['image']->url); ?>" alt="<?php echo e($data->module['image']->alt); ?>" class="3xl:w-11/12 2xl:w-full h-[1000px] xl:absolute top-[-10%] xl:ml-75 shadow-blue-200 mx-auto ">
