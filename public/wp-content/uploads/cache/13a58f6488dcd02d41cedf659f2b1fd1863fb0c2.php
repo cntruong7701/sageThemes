@@ -1,15 +1,15 @@
-<footer id="footer" class="wrap h-205 module footer mt-60 bg-white">
+<footer id="footer" class="wrap xl:h-205 md:h-215 module footer mt-60 bg-white">
     <div class="w-full relative">
         <div class="absolute right-0 left-0">
             <img class="w-full h-205" src="<?php echo App::getBanner()['bgFooter']; ?>" alt="<?php echo App::getLogo()['alt']; ?>">
         </div>
-        <div class="absolute top-82 w-full">
+        <div class="absolute xl:top-82 md:top-65 w-full">
             <div class="flex flex-col xl:w-4/5 md:w-full justify-between mx-auto xl:items-start md:items-center">
                 <div class="2xl:relative xl:absolute md:relative 2xl:mb-22">
                     <img src="<?php echo App::getLogo()['logoFooter']; ?>" alt="<?php echo App::getLogo()['alt']; ?>">
                 </div>
-                <div class="flex w-full 2xl:items-start xl:items-end md:items-center xl:flex-row md:flex-col">
-                    <div class="flex xl:mr-25 justify-between xl:items-end xl:w-1/4 md:w-2/5 2xl:p-0 xl:py-9">
+                <div class="flex w-full 2xl:items-center xl:items-end md:items-center xl:flex-row md:flex-col">
+                    <div class="flex xl:mr-25 justify-between 2xl:items-center xl:items-end md:items-center h-41 xl:w-1/4 md:w-2/5 2xl:p-0 xl:py-9">
                         <div>
                             <span
                                 class="icomoon icon-youtube text-brown-400 2xl:text-2xl xl:text-base md:text-2xl 2xl:pr-10 xl:pr-5"></span>
@@ -31,21 +31,15 @@
                                 class="icomoon icon-linkedin2 text-brown-400 2xl:text-2xl xl:text-base md:text-2xl 2xl:pr-10 xl:pr-5"></span>
                         </div>
                     </div>
-                    <div class="flex xl:w-70% md:w-full justify-between 2xl:items-start xl:items-end md:items-center 2xl:flex-row md:flex-col">
-                        <div class="flex w-full xl:justify-between md:justify-around 2xl:mr-25 order">
-                            <div class="py-5 xl:px-0 md:px-6">
-                                <p>ORCHESTRA SITE</p>
-                            </div>
-                            <div class="py-5 xl:px-0 md:px-6">
-                                <p>ENCOMPASS WEBSITE</p>
-                            </div>
-                            <div class="py-5 xl:px-0 md:px-6">
-                                <p>HANDOFF WEBSITE</p>
-                            </div>
-                        </div>
-                        <div class="px-10 py-5 border-2 rounded-4xl xl:mb-16">
+                    <div class="flex xl:w-70% md:w-full justify-between 2xl:items-center xl:items-end md:items-center 2xl:flex-row md:flex-col">
+                        <?php echo App::getFooterNav(); ?>
+
+                        <div class="px-10 py-5 border-2 rounded-4xl 2xl:mb-0 xl:mb-16">
                             <a href="" class="text-white font-bold">CONTACT</a>
                         </div>
+                        
+                        
+                        
                     </div>
                 </div>
                 <p>© Encompass Technologies 2021</p>

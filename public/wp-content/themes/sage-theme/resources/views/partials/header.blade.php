@@ -1,5 +1,4 @@
-<header id="header" class="module header w-full top-0 left-0 relative z-200 border-b-1 bg-sky-800"
-    data-module="header">
+<header id="header" class="module header w-full top-0 left-0 relative z-200 border-b-1 bg-sky-800" data-module="header">
     <nav class="p-5 bg-sky-800 shadow xl:flex xl:items-center xl:justify-around">
         <div class="flex justify-around items-center xl:w-auto md:w-4/5 xl:mx-0 md:mx-auto">
             <div class="lg:w-full relative">
@@ -8,9 +7,6 @@
                     <img src="{!! App::getLogo()['url'] !!}" alt="{!! App::getLogo()['alt'] !!}" class="w-full">
                 </a>
             </div>
-            <!-- <div class="xl:hidden block" onclick="menu(this)">
-                <span class="icomoon icon-menu text-3xl"></span>
-            </div> -->
             <div class="xl:hidden block">
                 <button class="navbar-toggler hamburger-menu p-4 mt-0 cursor-pointer" type="button"
                     data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false"
@@ -22,23 +18,6 @@
                 </button>
             </div>
         </div>
-        <ul id="main-menu" data-module="menu"
-            class="list-none py-32 px-40 xl:flex xl:items-center m-0 z-a-1 xl:z-auto xl:static absolute bg-sky-800 w-full left-0 xl:w-auto
-        xl:py-0 xl:opacity-100 opacity-0 top-t200 transition-all ease-in duration-500"
-            id="collapse">
-            <li class="menu-item px-9 my-9 uppercase text-white">
-                <a class="py-9 no-underline hover:text-blue-100" href="#">ABOUT US</a>
-            </li>
-            <li class="menu-item px-9 my-9 uppercase text-white">
-                <a class="py-9 no-underline hover:text-blue-100" href="#">LEADERSHIP</a>
-            </li>
-            <li class="menu-item px-9 my-9 uppercase text-white">
-                <a class="py-9 no-underline hover:text-blue-100" href="#">CAREES</a>
-            </li>
-
-            <li class="active menu-item px-9 my-9 uppercase text-white">
-                <a class="py-9 no-underline hover:text-blue-100" href="#">CONTACT US</a>
-            </li>
-        </ul>
+        {!! App::getMainNav() !!}
     </nav>
 </header>

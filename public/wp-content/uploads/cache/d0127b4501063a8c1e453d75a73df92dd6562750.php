@@ -29,7 +29,7 @@
             
         </div>
         <div class="absolute top-0 right-0">
-            <img src="<?php echo App::getBanner()['Hide']; ?>" alt="<?php echo App::getBanner()['alt']; ?>" class="h-[400px]">
+            <img src="<?php echo App::getLogo()['load']; ?>" data-src="<?php echo App::getBanner()['Hide']; ?>" alt="<?php echo App::getBanner()['alt']; ?>" class="lazy h-200">
         </div>
     </div>
 </section>

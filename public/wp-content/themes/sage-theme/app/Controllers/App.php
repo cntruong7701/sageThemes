@@ -42,6 +42,7 @@ class App extends Controller
         $url = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/logo-sagetheme.svg';
         $logoFooter = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/footerLogo.svg';
         $aperity = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/aperity-logo.png';
+        $load = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/load.png';
         $cba = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/cba-logo.png';
         $provi = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/provi-logo.png';
         $salsify = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/salsify-logo.png';
@@ -55,7 +56,7 @@ class App extends Controller
         $whistle = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/logofooter/WhistlePig_Logo_Primary.png';
         $alt = ($logo && $logo['alt']) ? $logo['alt'] : 'logo';
         $href = home_url();
-        return compact('url', 'logoFooter', 'aperity', 'cba', 'provi', 'salsify', 'script', 'untappd', 'advance', 'barringer', 'eagle', 'firestone', 'towns', 'whistle','alt', 'href');
+        return compact('url', 'logoFooter', 'load', 'aperity', 'cba', 'provi', 'salsify', 'script', 'untappd', 'advance', 'barringer', 'eagle', 'firestone', 'towns', 'whistle','alt', 'href');
     }
 
     public static function getBanner()
@@ -158,8 +159,9 @@ class App extends Controller
                 CONTAINER => false,
                 DEPTH => 2,
                 WALKER => new \App\Services\Nav\C8ThemeHeaderMenu(),
-                'menu_class' => 'main-menu-ul navbar-nav list-none flex mb-0 p-0 text-white flex-col text-inherit
-                lg:flex-row lg:justify-end',
+                'menu_class' => 'wrap list-none py-32 px-40 xl:flex xl:items-center m-0 z-a-1 xl:z-auto xl:static absolute bg-sky-800 w-full left-0 xl:w-auto
+                xl:py-0 xl:opacity-100 opacity-0 top-t200 transition-all ease-in duration-500',
+                'menu_id' => 'main-menu',
                 ECHO_TEXT => false,
             ));
         } else {
@@ -175,14 +177,14 @@ class App extends Controller
         if (has_nav_menu($location)) {
             return wp_nav_menu(array(
                 THEME_LOCATION => $location,
-                ITEMS_WRAP => '%3$s',
                 CONTAINER => false,
                 DEPTH => 2,
                 WALKER => new \App\Services\Nav\C8ThemeFooterMenu(),
+                'menu_class' => 'flex list-none w-full xl:justify-between md:justify-around 2xl:mr-25 order xl:mb-0 md:mb-15',
                 ECHO_TEXT => false,
             ));
         } else {
-            return 'text';
+            return '';
         }
     }
 

@@ -11,7 +11,7 @@
                     </div>
                     {!! $item->content !!}
                     <div class="mt-auto">
-                        <a href="{{ $item->link->url }}" class="hover:text-brown-400">
+                        <a href="{{ $item->link->url }}" class="btn-outline-brown">
                             <span class="text-base font-bold">{{ $item->link->title }}</span>
                             <span class="icomoon icon-chevron-right w-3"></span>
                         </a>

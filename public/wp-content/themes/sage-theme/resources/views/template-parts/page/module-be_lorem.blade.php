@@ -57,7 +57,7 @@
             </div> --}}
         </div>
         <div class="absolute top-0 right-0">
-            <img src="{!! App::getBanner()['Hide'] !!}" alt="{!! App::getBanner()['alt'] !!}" class="h-[400px]">
+            <img src="{!! App::getLogo()['load'] !!}" data-src="{!! App::getBanner()['Hide'] !!}" alt="{!! App::getBanner()['alt'] !!}" class="lazy h-200">
         </div>
     </div>
 </section>

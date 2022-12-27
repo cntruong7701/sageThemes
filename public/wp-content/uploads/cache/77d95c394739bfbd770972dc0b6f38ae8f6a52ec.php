@@ -1,5 +1,5 @@
 <section class="wrap w-full bg-slate-100 mb-56">
-    <div class="w-4/5 mx-auto">
+    <div class="w-4/5 mx-auto xl:pt-0 md:pt-50">
         <div class="flex xl:flex-row md:flex-col">
             <div class="xl:w-1/2 2xl:mx-25 xl:my-50 md:w-full md:mb-25">
                 <div class="2xl:w-full 2xl:mb-0 xl:w-410 xl:mb-25">

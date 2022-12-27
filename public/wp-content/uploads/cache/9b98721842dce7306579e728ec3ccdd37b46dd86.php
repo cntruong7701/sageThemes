@@ -1,5 +1,5 @@
 <section class="wrap mt-60">
-    <div class="flex flex-col text-center lg:w-3/4 md:w-full mx-auto">
+    <div class="flex flex-col text-center lg:w-3/4 md:w-full mx-auto mb-10">
         <h2>Trusted By Industry Leaders Across the Supply Chain</h2>
         <p>
             We are trusted by the world’s leading manufacturers, distributors, and retailers to provide the best

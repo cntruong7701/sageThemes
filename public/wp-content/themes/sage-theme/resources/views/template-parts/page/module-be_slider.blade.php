@@ -24,4 +24,4 @@
 </section>
 
 <?php 
-// var_dump($name);
+//  var_dump($data->module['testimonial']);

@@ -13,7 +13,7 @@
                     <?php echo $item->content; ?>
 
                     <div class="mt-auto">
-                        <a href="<?php echo e($item->link->url); ?>" class="hover:text-brown-400">
+                        <a href="<?php echo e($item->link->url); ?>" class="btn-outline-brown">
                             <span class="text-base font-bold"><?php echo e($item->link->title); ?></span>
                             <span class="icomoon icon-chevron-right w-3"></span>
                         </a>
