@@ -10,22 +10,6 @@
                     {!! $item->content !!}
                 </div>
             @endforeach
-            {{-- <div class="column1 mr-2.5 md:w-full md:mx-auto">
-                <div class="xl:w-4/5">
-                    {!! $data->module['content1'] !!}
-                </div>
-                <div class="xl:w-4/5">
-                    {!! $data->module['content2'] !!}
-                </div>
-            </div>
-            <div class="column2 md:w-full md:mx-auto">
-                <div class="xl:w-4/5">
-                    {!! $data->module['content3'] !!}
-                </div>
-                <div class="xl:w-4/5">
-                    {!! $data->module['content4'] !!}
-                </div>
-            </div> --}}
         </div>
     </div>
 </section>
